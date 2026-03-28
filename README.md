@@ -19,9 +19,24 @@ Copied from their official webside, *remage* is a modern simulation framework fo
 ## Building Environment
 Now you already know what *remage* is for! So it's time to build a cozy house for this genie to perform her magic. YOUR BEAUTIFUL MacOS LAPTOP is the cozy house, and for every project you work on, you need to create a "room" (i.e. folder) for it. Of course, you have to install corresponding packages for each room you create.
 
-Before we really create a room/folder, we need to make sure our house is settled, otherwise we won't be able to install packages in the rooms (You will understand why later). Please follow the steps below carefully, 
+Before we really create a room/folder, we need to make sure our house is settled, otherwise we won't be able to install packages in the rooms (You will understand why later). Please follow the steps below carefully to make sure the house is cozy enough for Ms.Remage.
 
-### 
+## Settle your House/MacOS
+
+### 💻 Step 1: Install Homebrew
+
+### 🍺 Step 2: Install Dependencies
+
+## Create a Room/Folder
+
+### 📂 Step 1: Open a Folder
+
+### Step 2: Create Python Virtual Environments
+
+### Step 3: Install Packages
+
+## Running Simulations
+
 
 
 
