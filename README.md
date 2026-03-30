@@ -39,7 +39,9 @@ Paste it right after that "%" in your terminal and press "Enter".
 
 <details>
 <summary> Don't paste that "$". </summary>
-The "$" at the beginning of commands is just a notation specifying that these commands should be run in terminals, not cells of files in your projects. In this case, your terminal should look something like "... % /bin/bash -c ..." before pressing Enter.
+The "$" at the beginning of commands is just a notation specifying that these commands should be run in terminals, not cells of files in your projects. In this case, your terminal should look something like
+"... % /bin/bash -c ..."
+before pressing Enter.
 </details>
 
 ### 🍺 Step 2: Install Dependencies
