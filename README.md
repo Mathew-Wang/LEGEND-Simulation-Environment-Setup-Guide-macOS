@@ -14,24 +14,30 @@ I use Visual Studio Code (VS Code) as editor for its tidiness, thus all the foll
 ---
 
 ## What is remage?
+
 Copied from their official webside, *remage* is a modern simulation framework for low-background physics experiments. You can think of it as a well-constructed Python library that allows you to write codes with it to simulate laboratory equipment, design experiments, and collect data for your particle physics research.
 
 ## Building Environment
+
 Now you already know what *remage* is for! So it's time to build a cozy house for this genie to perform her magic. YOUR BEAUTIFUL MacOS LAPTOP is the cozy house, and for every project you work on, you need to create a "room" (i.e. folder) for it. Of course, you have to install corresponding packages for each room you create.
 
 Before we really create a room/folder, we need to make sure our house is settled, otherwise we won't be able to install packages in the rooms (You will understand why later). Please follow the steps below carefully to make sure the house is cozy enough for Ms.Remage.
 
 ## Settle your House/MacOS
+
 Start your VS Code, and open the terminal in it. If you don't know where to find, see below:
 
 <p align="center">
-<img width="49%" height="1003" alt="terminal1" src="https://github.com/user-attachments/assets/5d2909c5-2dc4-42b6-96bf-2c5db105fc6b" />
-<img width="49%" height="1002" alt="terminal2" src="https://github.com/user-attachments/assets/f71c467f-79fc-4c80-abfc-0d66667978f5" />
+<img width="45%" height="1003" alt="terminal1" src="https://github.com/user-attachments/assets/5d2909c5-2dc4-42b6-96bf-2c5db105fc6b" />
+<img width="45%" height="1002" alt="terminal2" src="https://github.com/user-attachments/assets/f71c467f-79fc-4c80-abfc-0d66667978f5" />
 </p>
 
 In the terminal, you should find a string of text with a "%" at the end. By typing specific commands after "%", you get to interact with the terminal, thus being able to settle your computer (i.e. make you house cozy).
 
 ### 💻 Step 1: Install Homebrew
+
+#### Step 1.1: Homebrew Installing Command
+
 Homebrew is a very powerful "package manager" for macOS, and you can think of it as the "App Store" for terminals. We need Homebrew to acquire packages and dependencies, so go to the website of [Homebrew](https://brew.sh) and copy the command. The command should look something like this:
 ```bash
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -45,7 +51,14 @@ The "$" at the beginning of commands is just a notation specifying that these co
 "... % /bin/bash -c ..." before pressing Enter.
 </details>
 
+#### Step 1.2 Enter Password
 
+Then, you should see your terminal asking you to *enter password*. Type the password of your **Apple account** (i.e. the one you use to log in macOS) directly.
+
+<details>
+<summary> Your password won't show. </summary>
+It's completely normal that the typed letters are invisible. Don't panic, nothing is wrong, they're just trying to protect your privacy.
+</details>
 
 ### 🍺 Step 2: Install Dependencies
 
