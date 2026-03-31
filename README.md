@@ -68,7 +68,11 @@ It's completely normal that the typed letters are invisible. Don't panic, nothin
 
 #### Step 1.3 Add Homebrew to your Path
 
-Now there's only one step left for installing Homebrew: Scroll through your terminal and look for **"===> Nest steps:"**. Find all commands start with *echo* or *eval*, paste and run them in the terminal ONE BY ONE.
+Now there's only one step left for installing Homebrew: Scroll through your terminal and look for 
+
+**===> Nest steps:**
+
+Find all commands start with *echo* or *eval*, paste and run them in the terminal ONE BY ONE.
 
 That is, you should find commands like
 
@@ -84,7 +88,12 @@ $ echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/[your_username]
 $ eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 ```
 
-in the section with the title of "===> Nest steps:". ONE AT A TIME, copy & paste one after the "%" in your terminal, then press Enter.
+in the section with the title of "===> Nest steps:". ONE AT A TIME, copy one and paste it after the "%" in your terminal, then press Enter.
+
+<details>
+<summary> Why echo and eval? </summary>
+Merely installing Homebrew in your computer is not enough. We also need to add Homebrew to your path permanently, so that every time you open a terminal in VS Code, it automatically "traces" where Homebrew is. Commands begin with "echo" ann "eval" are assigned to finish this job, and without doing this, you won't be able to continue the following steps (i.e. installing dependencies via commands begin with "brew").
+</details>
 
 ### 🍺 Step 2: Install Dependencies
 
