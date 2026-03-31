@@ -97,6 +97,17 @@ Merely installing Homebrew in your computer is not enough. We also need to add H
 
 ### 🍺 Step 2: Install Dependencies
 
+Now you already have a powerful installing tool (i.e. Homebrew!), and it's time to get your cozy house done.
+
+```bash
+$ brew install opencascade cgal gmp mpfr boost vtk
+```
+
+<details>
+<summary> If you got plenty of time... </summary>
+
+</details>
+
 ## Create a Room/Folder
 
 ### 📂 Step 1: Open a Folder
