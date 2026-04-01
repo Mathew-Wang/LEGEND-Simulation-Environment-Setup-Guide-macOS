@@ -113,7 +113,7 @@ The above command "brew install opencascade cgal gmp mpfr boost vtk" means that
 
 you use **Homebrew** (now you know why we need to install Homebrew first) to **install** dependencies including **OpenCASCADE, CGAL, GMP, MPFR, Boost** and **VTK**. These dependencies play fundamental rules in installing packages (e.g. legend-pygeom-hpges, legend-pygeom-tools, ...) in your rooms/folders.
 
-Also, since Homebrew and dependencies installed with Homebrew are directly built in your macOS(house), you only have to install them ONCE. They will stay in your mac forever once installed, and can be utilized by all rooms in your house permanently. On the contrary, packages(legend-pygeom-hpges, legend-pygeom-tools, ...) built in rooms cannot be shared by other rooms.
+Also, since Homebrew and dependencies installed with Homebrew are directly built in your macOS(house), you only have to install them ONCE. They will stay in your mac forever once installed, and can be utilized by all rooms in your house permanently. On the contrary, packages(legend-pygeom-hpges, legend-pygeom-tools, ...) built in rooms cannot be shared by other rooms. Each time you create a new folder, you will need to install same packages in it again.
 </details>
 
 ## Create a Room/Folder
