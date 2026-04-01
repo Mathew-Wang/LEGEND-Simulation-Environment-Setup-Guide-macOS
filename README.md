@@ -122,7 +122,7 @@ and you have successfully installed all the dependencies needed to acquire packa
 
 <details>
 
-<summary> If you got plenty of time... </summary>
+<summary> About dependencies </summary>
 The above command "brew install opencascade cgal gmp mpfr boost vtk" means that
 
 you use **Homebrew** (now you know why we need to install Homebrew first) to **install** dependencies including **OpenCASCADE, CGAL, GMP, MPFR, Boost** and **VTK**. These dependencies play fundamental rules in installing packages (e.g. legend-pygeom-hpges, legend-pygeom-tools, ...) in your rooms/folders.
@@ -185,6 +185,8 @@ It will undo the process of opening the virtaul environment, but it won't delete
 </details>
 
 ### 📦 Step 3: Install Packages
+
+
 
 <details>
 
