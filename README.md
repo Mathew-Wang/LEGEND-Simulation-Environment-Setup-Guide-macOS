@@ -32,13 +32,13 @@ Copied from their official webside, *remage is a modern simulation framework for
 
 ## Building Environment
 
-Now you already know what *remage* is for! So it's time to build a cozy house for this genie to perform her magic. YOUR BEAUTIFUL MacOS LAPTOP is the cozy house, and for every project you work on, you need to create a "room" (i.e. folder) for it. Of course, you have to install corresponding packages for each room you create.
+Now you already know what *remage* is for! So it's time to build a cozy house for this genie to perform her magic. YOUR BEAUTIFUL macOS LAPTOP is the cozy house, and for every project you work on, you need to create a "room" (i.e. folder) for it. Of course, you have to install corresponding packages for each room you create.
 
 Before we really create a room/folder, we need to make sure our house is settled, otherwise we won't be able to install packages in the rooms. Please follow the steps below carefully to make sure the house is cozy enough for Ms.Remage.
 
 <br>
 
-## Settle your House/MacOS
+## Settle your MacOS(House)
 
 Start your VS Code, and open the terminal in it. If you don't know where to find, see below:
 
@@ -135,11 +135,11 @@ The above command "brew install opencascade cgal gmp mpfr boost vtk" means that
 
 you use **Homebrew** (now you know why we need to install Homebrew first) to **install** dependencies including **OpenCASCADE, CGAL, GMP, MPFR, Boost** and **VTK**. These dependencies play fundamental rules in installing packages (e.g. legend-pygeom-hpges, legend-pygeom-tools, ...) in your rooms.
 
-Also, since Homebrew and dependencies installed with Homebrew are directly built in your macOS(house), you only have to install them ONCE. They will stay in your mac forever once installed, and can be utilized by all rooms in your house permanently. On the contrary, packages(legend-pygeom-hpges, legend-pygeom-tools, ...) built in rooms cannot be shared by other rooms. Each time you create a new folder, you will need to install same packages in it again.
+Also, since dependencies installed with Homebrew and Homebrew itself are directly built in your macOS(house), you only have to install them ONCE. They will stay in your mac forever once installed, and can be utilized by all folders(rooms) in your house permanently. On the contrary, packages(legend-pygeom-hpges, legend-pygeom-tools, ...) built in rooms cannot be shared by other rooms. Each time you create a new folder, you will need to install same packages in it again.
 
 </details>
 
-## Create a Room/Folder
+## Create a Folder(Room)
 
 Our house is done, so let's deal with the rooms:
 
@@ -165,7 +165,7 @@ $ source legend_env/bin/activate
 
 <summary> Naming </summary>
 
-In this case, I named the virtual environment "**legend_env**", so that's why the two commands above both include "legend_venv" in the end. You don't have to copy me exactly, just make sure they have the form of:
+In this case, I named the virtual environment "**legend_env**", and that's why the two commands above both include "legend_env" in the end. You don't have to copy me exactly, just make sure they have the form of:
 
 ```bash
 # create a virtual environment
@@ -194,7 +194,25 @@ It will undo the process of opening the virtaul environment, but it won't delete
 
 ### 📦 Step 3: Install Packages
 
+After setting up a virtual environment for your folder, you can install packages needed for simulations:
 
+```bash
+# install packages: legend-pygeom-hpges & legend-pygeom-tools
+$ pip install legend-pygeom-hpges
+$ pip install legend-pygeom-tools
+```
+
+<details>
+
+<summary> About these 2 packages... </summary>
+
+*legend-pygeom-hpges* & *legend-pygeom-tools* are packages specailly designed by LEGEND team to tackle the geometries for simulations, and they are both built on the same Python foundation called [pyg4ometry](https://pyg4ometry.readthedocs.io/en/stable/). Since both packages require pyg4ometry, your laptop will automatically install it while installing the two packages.
+
+*legend-pygeom-hpges* can call upon *pyg4ometry* to draw out the detectors in your simulated labs. The details(position, shape, size, etc.) of every single HPGe(High-Purity Germanium detector) can be defined with this package.
+
+*legend-pygeom-tools*'s job is to arrange the defined detectors, thus determines what your virtual labs look like.
+
+</details>
 
 <details>
 
