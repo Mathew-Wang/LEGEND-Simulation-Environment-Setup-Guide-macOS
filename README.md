@@ -202,6 +202,8 @@ $ pip install legend-pygeom-hpges
 $ pip install legend-pygeom-tools
 ```
 
+And now your room is properly set!
+
 <details>
 
 <summary> About these 2 packages... </summary>
@@ -233,9 +235,9 @@ $ pip install --upgrade pip
 
 ## Running Simulations
 
+You have so far well-settled the environment, so let's go through a very basic example to help you understand how simulations work better.
 
-
-
+The example I chose is from [remage basic tutorial](https://remage.readthedocs.io/en/stable/tutorial.html). It is an example of 
 
 
 
