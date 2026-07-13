@@ -218,14 +218,18 @@ $ pip install legend-pygeom-tools
 
 <summary> pip vs. brew </summary>
 
+Both *pip* and *brew* are often used in commands to proceed installations in a terminal. In our case, "$ brew install ..." is for things you need in your *house* (e.g. OpenCASCADE, CGAL, GMP & other dependencies), while "$ pip install ..." is for things you need in the *rooms* (e.g. legend-pygeom-hpges, legend-pygeom-tools & other packages).
+
+If you want to check or update the version of your pip:
 ```bash
-$ pip install --upgrade pip
+# check pip version
 $ pip --version
+
+# update pip to the latest version
+$ pip install --upgrade pip
 ```
 
 </details>
-
-These packages and venv are in your room so for new rooms new installation. Homebrew, dependencies not the case.
 
 ## Running Simulations
 
