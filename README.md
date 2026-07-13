@@ -2,6 +2,14 @@
 
 This is a step-by-step tutorial/introduction for macOS users to set up an environment for [LEGEND remage](https://remage.readthedocs.io/en/stable/index.html) simulations, and actually run some rather easier examples. I hope this document is comprehensive and straightforward enough, that even if you know nothing about dealing with terminals, creating environments, or coding in Python, you can still understand and use it. My main goal is to help you have a grasp of simulation running, without spending too much time digging through offical documentations from LEGEND and feeling lost.
 
+<details>
+
+<summary> Talk to me plz :) </summary>
+
+If you still have questions after reading this guide, feel free to contact me. I'll respond as soon as I'm available: b12202045@ntu.edu.tw
+
+</details>
+
 We will start all the way from an introduction to what remage is, then move on to installing required packages and setting up the proper environment. After that, we will walk through examples in [remage basic tutorial](https://remage.readthedocs.io/en/stable/tutorial.html). By completing these steps should help you become familiar with building/running simulations and prepare you to tackle more challenging tasks.
 
 So let's start, shall we?
@@ -18,7 +26,7 @@ I use **Visual Studio Code (VS Code)** as editor for its tidiness, thus all the 
 
 ## What is remage?
 
-Copied from their official webside, *remage* is a modern simulation framework for low-background physics experiments. You can think of it as a well-constructed Python library that allows you to write codes with it to simulate laboratory equipment, design experiments, and collect data for your particle physics research.
+Copied from their official webside, *remage is a modern simulation framework for low-background physics experiments*. You can think of it as a well-constructed Python library that allows you to write codes with it to simulate laboratory equipment, design experiments, and collect data for your particle physics research.
 
 <br>
 
@@ -26,7 +34,7 @@ Copied from their official webside, *remage* is a modern simulation framework fo
 
 Now you already know what *remage* is for! So it's time to build a cozy house for this genie to perform her magic. YOUR BEAUTIFUL MacOS LAPTOP is the cozy house, and for every project you work on, you need to create a "room" (i.e. folder) for it. Of course, you have to install corresponding packages for each room you create.
 
-Before we really create a room/folder, we need to make sure our house is settled, otherwise we won't be able to install packages in the rooms (You will understand why later). Please follow the steps below carefully to make sure the house is cozy enough for Ms.Remage.
+Before we really create a room/folder, we need to make sure our house is settled, otherwise we won't be able to install packages in the rooms. Please follow the steps below carefully to make sure the house is cozy enough for Ms.Remage.
 
 <br>
 
@@ -125,7 +133,7 @@ and you have successfully installed all the dependencies needed to acquire packa
 <summary> About dependencies... </summary>
 The above command "brew install opencascade cgal gmp mpfr boost vtk" means that
 
-you use **Homebrew** (now you know why we need to install Homebrew first) to **install** dependencies including **OpenCASCADE, CGAL, GMP, MPFR, Boost** and **VTK**. These dependencies play fundamental rules in installing packages (e.g. legend-pygeom-hpges, legend-pygeom-tools, ...) in your rooms/folders.
+you use **Homebrew** (now you know why we need to install Homebrew first) to **install** dependencies including **OpenCASCADE, CGAL, GMP, MPFR, Boost** and **VTK**. These dependencies play fundamental rules in installing packages (e.g. legend-pygeom-hpges, legend-pygeom-tools, ...) in your rooms.
 
 Also, since Homebrew and dependencies installed with Homebrew are directly built in your macOS(house), you only have to install them ONCE. They will stay in your mac forever once installed, and can be utilized by all rooms in your house permanently. On the contrary, packages(legend-pygeom-hpges, legend-pygeom-tools, ...) built in rooms cannot be shared by other rooms. Each time you create a new folder, you will need to install same packages in it again.
 
