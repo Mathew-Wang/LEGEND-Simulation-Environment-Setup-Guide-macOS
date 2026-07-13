@@ -208,9 +208,9 @@ $ pip install legend-pygeom-tools
 
 *legend-pygeom-hpges* & *legend-pygeom-tools* are packages specailly designed by LEGEND team to tackle the geometries for simulations, and they are both built on the same Python foundation called [pyg4ometry](https://pyg4ometry.readthedocs.io/en/stable/). Since both packages require pyg4ometry, your laptop will automatically install it while installing the two packages.
 
-*legend-pygeom-hpges* can call upon *pyg4ometry* to draw out the detectors in your simulated labs. The details(position, shape, size, etc.) of every single HPGe(High-Purity Germanium detector) can be defined with this package.
+*legend-pygeom-hpges* can call upon *pyg4ometry* to draw out the detectors in your simulated lab. The details(position, shape, size, etc.) of every single HPGe(High-Purity Germanium detector) can be defined with this package.
 
-*legend-pygeom-tools*'s job is to arrange the defined detectors, thus determines what your virtual labs look like.
+*legend-pygeom-tools*'s job is to arrange the defined detectors, thus determines what your virtual lab looks like.
 
 </details>
 
